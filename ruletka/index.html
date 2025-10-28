@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Image Selector</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="full-screen-rectangle">
+      <!-- Line to indicate the selected item -->
+      <div class="selection-line"></div>
+
+      <!-- Images for the roulette -->
+      <div class="flex">
+        <h3 class="common">COMMON</h3>
+        <img id="displayed-imagel1" src="boy.jpg" alt="Random Item" />
+      </div>
+      <div class="flex">
+        <h3 class="rare">RARE</h3>
+        <img id="displayed-imagel2" src="fb2.jpg" alt="Random Item" />
+      </div>
+      <div class="flex">
+        <h3 class="epic">EPIC</h3>
+        <img id="displayed-imagel3" src="fb3.png" alt="Random Item" />
+      </div>
+      <div class="flex">
+        <h3 class="legendary">LEGENDARY</h3>
+        <img id="displayed-imagel4" src="as.jpg" alt="Random Item" />
+      </div>
+    </div>
+
+    <!-- Sidebar for the spin button and countdown -->
+    <div class="sidebar">
+      <button id="select-button">Spin</button>
+      <div id="countdown">Time: 5</div>
+      <div id="result"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
