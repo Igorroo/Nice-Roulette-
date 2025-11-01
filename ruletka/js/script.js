@@ -2,8 +2,8 @@
 const items = [
     { name: 'COMMON', image: 'boy.jpg', probability: 0.6, class: 'common' }, // 60%
     { name: 'RARE', image: 'fb2.jpg', probability: 0.2, class: 'rare' }, // 20%
-    { name: 'EPIC', image: 'fb3.png', probability: 0.19, class: 'epic' }, // 19%
-    { name: 'LEGENDARY', image: 'as.jpg', probability: 0.01, class: 'legendary' } // 1%
+    { name: 'EPIC', image: 'fb3.png', probability: 0.17, class: 'epic' }, // 17%
+    { name: 'LEGENDARY', image: 'as.jpg', probability: 0.03, class: 'legendary' } // 3%
 ];
 
 // Get references to elements
